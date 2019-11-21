@@ -52,8 +52,67 @@
 	<head>
 		<meta charset="utf-8" />
 		<title>Calcuator</title>
-		<link rel="stylesheet" href="css/CalcStyle.css" />
-		<script src="js/Calc.js" type="text/javascript"></script>
+		<style>
+			*{
+				margin: 0px 0px;
+			}
+
+			#div1{
+				width: 20%;
+				height: 480px;
+				border: solid gray 2px;
+				margin: auto;
+				text-align: center;
+				background: cornflowerblue;
+			}
+
+			th td{
+				
+			}
+
+			textarea{
+				width: 99%;
+				height: 18%;
+				border: solid darkslategray 2px;
+				resize: none;
+				font-size: 1.5em;
+				font-weight: 1000;
+				color://
+			}
+
+
+			input{
+				color:cornflowerblue;
+				width: 23%;
+				height: 13%;
+				background: greenyellow;
+				font-size: 2em;
+				margin: 5px 0px;
+			}
+
+			tr td:hover{
+				background: darkgray;
+			}
+			tr td:active{
+				background: dimgray;
+			}
+		</style>
+		<script>
+			function display(nums) {
+				var content = document.getElementById("txtArea");
+				content.value = content.value + nums;
+			}
+
+			function calcs() {
+				var result = eval(document.getElementById("txtArea").value);
+				document.getElementById("txtArea").value = "";
+				document.getElementById("txtArea").value = result;
+			}
+
+			function clears() {
+				document.getElementById("txtArea").value = "";
+			}
+		</script>
 	</head>
 
 	<body>
