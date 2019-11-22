@@ -1,17 +1,158 @@
-extends includes/layout.pug
+<html>
+<head>
+	
+	<title></title>
+	<meta name="keywords" content="xxx" />
 
-block content
-  include includes/recent-posts.pug
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
-  if (theme.paginator)
-    div(class="paginator")
-      -
-        var options = {
-          prev_text: '上一页',
-          next_text: '下一页'
-        }
-      != paginator(options)
+    
+	   <link href="/css/main.css?v=3" rel="stylesheet" type="text/css" />
+    
+        <script src="/js/util.js"></script>
+        <script>
+            if(isMobile()) {
+                loadjscssfile('../css/mobile.css', 'css');
+            } else {
+                loadjscssfile('../css/desktop.css', 'css');
+            }
+        </script> 
+    
 
-  if theme.footer.display
-    div.footer
-      p.text-center= theme.footer.context
+    <link rel="alternate" type="application/atom+xml" href="/atom.xml" title="Atom feed">
+
+    
+	<link rel="shortcut icon" type="image/x-icon" href="/favicon.ico?v=3"/>
+    
+    
+
+</head>
+
+<body>
+<nav class="navbar navbar-default navbar-fixed-top" style="opacity: .9" role="navigation">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#">EagleLee</a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+            
+                
+                    <li >
+                        <a href="/"> blog</a>
+                    </li>
+                
+                    <li >
+                        <a href="/apollo"> Apollo</a>
+                    </li>
+                
+                    <li >
+                        <a href="/beanstalkd"> Beanstalkd</a>
+                    </li>
+                
+                    <li >
+                        <a href="/about"> About</a>
+                    </li>
+                
+                    <li >
+                        <a href="/a-letter-to-mr-moji"> 致莫急</a>
+                    </li>
+                
+                    <li >
+                        <a href="https:github.com/mickeyouyou" target="_blank" rel="noopener"> GitHub</a>
+                    </li>
+                
+            
+            </ul>
+        </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+</nav>
+
+<div class="row" style="padding-top: 70px">
+    <div class="container center-block">
+        <div class="col-md-2"></div>
+        <div class="col-md-8 col-sm-12">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Blog</h3>
+                </div>
+                <ul class="list-group">
+                    
+                    
+                    
+<li class="list-group-item title">
+    <a target="_blank" href="/2019/11/22/calc/">calc</a>
+</li>
+
+
+                    
+                    
+<li class="list-group-item title">
+    <a target="_blank" href="/2019/11/21/VsCode%20for%20Vue/">VsCode for Vue</a>
+</li>
+
+
+                    
+                    
+<li class="list-group-item title">
+    <a target="_blank" href="/2019/11/21/new/">new</a>
+</li>
+
+
+                    
+                    
+<li class="list-group-item title">
+    <a target="_blank" href="/2019/11/21/personal%20blog/">personal blog</a>
+</li>
+
+
+                    
+                    
+<li class="list-group-item title">
+    <a target="_blank" href="/2019/11/20/polyformula/">polyformula</a>
+</li>
+
+
+                    
+                    
+<li class="list-group-item title">
+    <a target="_blank" href="/2019/11/20/first/">first</a>
+</li>
+
+
+                    
+                    
+<li class="list-group-item title">
+    <a target="_blank" href="/2019/11/20/hello-world/">Hello World</a>
+</li>
+
+
+                    
+                    
+                </ul>
+            </div>
+        </div>
+
+        <div class="col-md-2">
+        </div>
+<div style="display:none">
+<script src="http://s4.cnzz.com/stat.php?id=&web_id=" language="JavaScript"></script>
+</div>
+    </div>
+</div>
+
+
+
+
+</body>
+</html>
