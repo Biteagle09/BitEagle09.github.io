@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://blog.eaglelee.cn/"/>
-  <updated>2019-11-29T13:49:40.718Z</updated>
+  <updated>2019-11-30T01:45:13.629Z</updated>
   <id>http://blog.eaglelee.cn/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>First Night</title>
+    <link href="http://blog.eaglelee.cn/2019/11/30/first/"/>
+    <id>http://blog.eaglelee.cn/2019/11/30/first/</id>
+    <published>2019-11-30T01:44:10.097Z</published>
+    <updated>2019-11-30T01:45:13.629Z</updated>
+    
+    <content type="html"><![CDATA[<p>&lt;摘要&gt;该博客系统是基于Hexo主题和GitHub服务搭建起来的静态博客页面，在本次搭建博客时遇到了一些问题，现作以陈述，希望能给大家一点帮助…………<a id="more"></a></p><ul><li><h4 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h4></li></ul><ol><li>一定要区分Hexo根目录下的总配置文件<code>_config.yml</code>和theme目录下的<code>_config.yml</code>;</li><li>评论功能建议使用Gitalk,这个评论模块是基于GitHub的issue的，用户若需要评论，需要登录自己的GitHub账号并于博主的<a href="https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/" target="_blank" rel="noopener">OAuth Apps</a>账号</li></ol><p><a href="https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/" target="_blank">OAuth Apps</a></p><p><img src="/.cn//_posts/first/OAuthApps.png%22" alt="OAuth Apps注册参数"></p><h3 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h3><ol><li><a href="https://github.com/Biteagle09/BitEagle09.github.io/blob/master/documents/B-Tree.pdf" target="_blank" rel="noopener">B-Tree [WiKipedia]</a></li></ol>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&amp;lt;摘要&amp;gt;该博客系统是基于Hexo主题和GitHub服务搭建起来的静态博客页面，在本次搭建博客时遇到了一些问题，现作以陈述，希望能给大家一点帮助…………&lt;/p&gt;
+    
+    </summary>
+    
+    
+    
+      <category term="test" scheme="http://blog.eaglelee.cn/tags/test/"/>
+    
+  </entry>
   
   <entry>
     <title>The README of BlueLake</title>
@@ -71,7 +92,7 @@
     <published>2019-11-24T14:05:45.650Z</published>
     <updated>2019-11-29T14:08:34.983Z</updated>
     
-    <content type="html"><![CDATA[<h2 id="Markdown开篇之作"><a href="#Markdown开篇之作" class="headerlink" title="Markdown开篇之作"></a>Markdown开篇之作</h2><h3 id="一、开始"><a href="#一、开始" class="headerlink" title="一、开始"></a>一、开始</h3><h4 id="1、第一个Java程序"><a href="#1、第一个Java程序" class="headerlink" title="1、第一个Java程序"></a>1、第一个Java程序</h4><a id="more"></a><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"Hello,World!!!"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h5 id="1-逐行解释"><a href="#1-逐行解释" class="headerlink" title="(1):逐行解释"></a>(1):<strong><em>逐行解释</em></strong></h5><p><code>①：作用于修饰符 静态方法关键字 返回值类型 函数名 (形参类型 形参名) {</code><br><code>②：调用库函数输出一个字符串&quot;Hello,World!!!&quot;;</code></p><h4 id="2、Java的基本数据类型"><a href="#2、Java的基本数据类型" class="headerlink" title="2、Java的基本数据类型"></a>2、Java的基本数据类型</h4><ul><li><strong>图片测试</strong></li></ul><img src="https://cn.bing.com/th?id=OHR.AtchafalayaCypress_ZH-CN0183179230_480x640.jpg&rf=LaDigue_1920x1080.jpg&pid=hp">+ **引用测试**>引用1>>引用2>>>引用3<ul><li><p><strong><em>超链接测试</em></strong><br><a href=""https://cn.bing.com"" title="必应首页">点我去必应</a><br><a href="https://cn.bing.com" target="_blank" title="测试鼠标悬浮">点我试试</a></p></li><li><p><strong>删除线测试</strong><br><del>H饿了咯</del></p></li><li><p><strong>列表及列表嵌套测试</strong></p></li><li><p>1   </p><ul><li>34</li></ul></li><li><p>3</p><ul><li>56</li></ul></li><li><p>4</p></li></ul><ul><li>12<ol><li>34</li></ol></li><li>12<ol start="2"><li>56</li></ol></li><li>23</li></ul><ul><li>34</li><li>56</li><li>67</li></ul><ol><li>23<ul><li>23</li></ul></li><li>88<ul><li>34</li></ul></li><li>0.45</li></ol><ul><li><strong>表格测试</strong></li></ul><table><thead><tr><th>姓名</th><th align="center">技能</th><th align="left">排行</th><th align="left">武力值</th></tr></thead><tbody><tr><td>刘备</td><td align="center">双股剑</td><td align="left">1</td><td align="left">1000</td></tr><tr><td>关羽</td><td align="center">青龙偃月刀</td><td align="left">2</td><td align="left">5000</td></tr><tr><td>张飞</td><td align="center">丈八蛇矛</td><td align="left">3</td><td align="left">4500</td></tr></tbody></table><ul><li><p><strong>代码测试</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">"%s\n"</span>,<span class="string">"Helllo,World!!!"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>流程图测试</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">H</span><br></pre></td></tr></table></figure><p>……..</p></li></ul>]]></content>
+    <content type="html"><![CDATA[<h2 id="Markdown开篇之作"><a href="#Markdown开篇之作" class="headerlink" title="Markdown开篇之作"></a>Markdown开篇之作</h2><h3 id="一、开始"><a href="#一、开始" class="headerlink" title="一、开始"></a>一、开始</h3><h4 id="1、第一个Java程序"><a href="#1、第一个Java程序" class="headerlink" title="1、第一个Java程序"></a>1、第一个Java程序</h4><a id="more"></a><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">main</span><span class="params">(String args[])</span></span>&#123;</span><br><span class="line">    System.out.println(<span class="string">"Hello,World!!!"</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><h5 id="1-逐行解释"><a href="#1-逐行解释" class="headerlink" title="(1):逐行解释"></a>(1):<strong><em>逐行解释</em></strong></h5><p><code>①：作用于修饰符 静态方法关键字 返回值类型 函数名 (形参类型 形参名) {</code><br><code>②：调用库函数输出一个字符串&quot;Hello,World!!!&quot;;</code></p><h4 id="2、Java的基本数据类型"><a href="#2、Java的基本数据类型" class="headerlink" title="2、Java的基本数据类型"></a>2、Java的基本数据类型</h4><ul><li><strong>图片测试</strong></li></ul><img src="https://cn.bing.com/th?id=OHR.AtchafalayaCypress_ZH-CN0183179230_480x640.jpg&rf=LaDigue_1920x1080.jpg&pid=hp">+ **引用测试**>引用1>>引用2>>>引用3<ul><li><p><strong><em>超链接测试</em></strong><br><a href https: cn.bing.com"" title="必应首页">点我去必应</a><br><a href="https://cn.bing.com" target="_blank" title="测试鼠标悬浮">点我试试</a></p></li><li><p><strong>删除线测试</strong><br><del>H饿了咯</del></p></li><li><p><strong>列表及列表嵌套测试</strong></p></li><li><p>1   </p><ul><li>34</li></ul></li><li><p>3</p><ul><li>56</li></ul></li><li><p>4</p></li></ul><ul><li>12<ol><li>34</li></ol></li><li>12<ol start="2"><li>56</li></ol></li><li>23</li></ul><ul><li>34</li><li>56</li><li>67</li></ul><ol><li>23<ul><li>23</li></ul></li><li>88<ul><li>34</li></ul></li><li>0.45</li></ol><ul><li><strong>表格测试</strong></li></ul><table><thead><tr><th>姓名</th><th align="center">技能</th><th align="left">排行</th><th align="left">武力值</th></tr></thead><tbody><tr><td>刘备</td><td align="center">双股剑</td><td align="left">1</td><td align="left">1000</td></tr><tr><td>关羽</td><td align="center">青龙偃月刀</td><td align="left">2</td><td align="left">5000</td></tr><tr><td>张飞</td><td align="center">丈八蛇矛</td><td align="left">3</td><td align="left">4500</td></tr></tbody></table><ul><li><p><strong>代码测试</strong></p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta">#<span class="meta-keyword">include</span><span class="meta-string">&lt;stdio.h&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">main</span><span class="params">()</span></span>&#123;</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">"%s\n"</span>,<span class="string">"Helllo,World!!!"</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></li><li><p>流程图测试</p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">H</span><br></pre></td></tr></table></figure><p>……..</p></li></ul>]]></content>
     
     <summary type="html">
     
@@ -90,7 +111,7 @@
     <published>2019-11-22T04:54:17.985Z</published>
     <updated>2019-11-29T13:51:41.750Z</updated>
     
-    <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8" /><title>Calcuator</title><style>*{margin: 0px 0px;}#div1{width: 50%;height: 580px;border: solid gray 2px;margin: auto;text-align: center;background: cornflowerblue;}textarea{width: 99%;height: 18%;border: solid darkslategray 2px;resize: none;font-size: 1.5em;font-weight: 1000;color://}input{color:cornflowerblue;width: 23%;height: 13%;background: greenyellow;font-size: 2em;margin: 5px 0px;}tr td:hover{background: darkgray;}tr td:active{background: dimgray;}</style><script>function display(nums) {var content = document.getElementById("txtArea");content.value = content.value + nums;}function calcs() {var result = eval(document.getElementById("txtArea").value);document.getElementById("txtArea").value = "";document.getElementById("txtArea").value = result;}function clears() {document.getElementById("txtArea").value = "";}</script><link rel="alternate" href="/atom.xml" title="EagleLee" type="application/atom+xml"></head><body><div id="div1"><h2>Calcuator</h2><textarea id="txtArea" readonly="readonly"></textarea><input type="button" class="num" value="AC" onclick="clears()" /><input type="button" class="num" value="." onclick="display('.')" /><input type="button" class="num" value="÷" onclick="display('/')" /><input type="button" class="num" value="x" onclick="display('*')" /><input type="button" class="num" value="7" onclick="display(7)" /><input type="button" class="num" value="8" onclick="display(8)" /><input type="button" class="num" value="9" onclick="display(9)" /><input type="button" class="num" value="-" onclick="display('-')" /><input type="button" class="num" value="4" onclick="display(4)" /><input type="button" class="num" value="5" onclick="display(5)" /><input type="button" class="num" value="6" onclick="display(6)" /><input type="button" class="num" value="+" onclick="display('+')" /><input type="button" class="num" value="1" onclick="display(1)" /><input type="button" class="num" value="2" onclick="display(2)" /><input type="button" class="num" value="3" onclick="display(3)" /><input type="button" class="num" value="=" onclick="calcs()" /><input style="width: 98%;" type="button" class="num" value="0" onclick="display(0)" /></div><!--<iframe src="http://plugin.speedtest.cn/#000"  frameborder="no" scrolling="no" style="width: 550px; height: 480px;"></iframe>--></body></html>]]></content>
+    <content type="html"><![CDATA[<!DOCTYPE html><html><head><meta charset="utf-8"><title>Calcuator</title><style>*{margin: 0px 0px;}#div1{width: 50%;height: 580px;border: solid gray 2px;margin: auto;text-align: center;background: cornflowerblue;}textarea{width: 99%;height: 18%;border: solid darkslategray 2px;resize: none;font-size: 1.5em;font-weight: 1000;color://}input{color:cornflowerblue;width: 23%;height: 13%;background: greenyellow;font-size: 2em;margin: 5px 0px;}tr td:hover{background: darkgray;}tr td:active{background: dimgray;}</style><script>function display(nums) {var content = document.getElementById("txtArea");content.value = content.value + nums;}function calcs() {var result = eval(document.getElementById("txtArea").value);document.getElementById("txtArea").value = "";document.getElementById("txtArea").value = result;}function clears() {document.getElementById("txtArea").value = "";}</script><link rel="alternate" href="/atom.xml" title="EagleLee" type="application/atom+xml"></head><body><div id="div1"><h2>Calcuator</h2><textarea id="txtArea" readonly="readonly"></textarea><input type="button" class="num" value="AC" onclick="clears()"><input type="button" class="num" value="." onclick="display('.')"><input type="button" class="num" value="÷" onclick="display('/')"><input type="button" class="num" value="x" onclick="display('*')"><input type="button" class="num" value="7" onclick="display(7)"><input type="button" class="num" value="8" onclick="display(8)"><input type="button" class="num" value="9" onclick="display(9)"><input type="button" class="num" value="-" onclick="display('-')"><input type="button" class="num" value="4" onclick="display(4)"><input type="button" class="num" value="5" onclick="display(5)"><input type="button" class="num" value="6" onclick="display(6)"><input type="button" class="num" value="+" onclick="display('+')"><input type="button" class="num" value="1" onclick="display(1)"><input type="button" class="num" value="2" onclick="display(2)"><input type="button" class="num" value="3" onclick="display(3)"><input type="button" class="num" value="=" onclick="calcs()"><input style="width: 98%;" type="button" class="num" value="0" onclick="display(0)"></div><!--<iframe src="http://plugin.speedtest.cn/#000"  frameborder="no" scrolling="no" style="width: 550px; height: 480px;"></iframe>--></body></html>]]></content>
     
     <summary type="html">
     
@@ -101,7 +122,7 @@
 &lt;html&gt;
 
 	&lt;head&gt;
-		&lt;meta charset=&quot;utf-8&quot; /&gt;
+		&lt;meta charset=&quot;utf-8&quot;&gt;
 		&lt;title&gt;Calcuator&lt;/title&gt;
 		&lt;style&gt;
 			*{
@@ -109,7 +130,7 @@
 			}
 
 			#div1{
-
+		
       
     
     </summary>
@@ -186,27 +207,6 @@
     
     
       <category term="Algorithm" scheme="http://blog.eaglelee.cn/tags/Algorithm/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>First Night</title>
-    <link href="http://blog.eaglelee.cn/2019/11/20/first/"/>
-    <id>http://blog.eaglelee.cn/2019/11/20/first/</id>
-    <published>2019-11-20T14:39:36.309Z</published>
-    <updated>2019-11-30T01:22:10.422Z</updated>
-    
-    <content type="html"><![CDATA[<p>&lt;摘要&gt;该博客系统是基于Hexo主题和GitHub服务搭建起来的静态博客页面，在本次搭建博客时遇到了一些问题，现作以陈述，希望能给大家一点帮助…………<a id="more"></a></p><ul><li><h4 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h4></li></ul><ol><li>一定要区分Hexo根目录下的总配置文件<code>_config.yml</code>和theme目录下的<code>_config.yml</code>;</li><li>评论功能建议使用Gitalk,这个评论模块是基于GitHub的issue的，用户若需要评论，需要登录自己的GitHub账号并于博主的<a href="https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/" target="_blank" rel="noopener">OAuth Apps</a>账号</li></ol><p><a href="https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/" target="_blank">OAuth Apps</a></p><h3 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h3><ol><li><a href="https://github.com/Biteagle09/BitEagle09.github.io/blob/master/documents/B-Tree.pdf" target="_blank" rel="noopener">B-Tree [WiKipedia]</a></li></ol>]]></content>
-    
-    <summary type="html">
-    
-      &lt;p&gt;&amp;lt;摘要&amp;gt;该博客系统是基于Hexo主题和GitHub服务搭建起来的静态博客页面，在本次搭建博客时遇到了一些问题，现作以陈述，希望能给大家一点帮助…………
-    
-    </summary>
-    
-    
-    
-      <category term="test" scheme="http://blog.eaglelee.cn/tags/test/"/>
     
   </entry>
   
