@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://blog.eaglelee.cn/"/>
-  <updated>2019-11-30T09:42:56.445Z</updated>
+  <updated>2019-11-30T09:38:35.924Z</updated>
   <id>https://blog.eaglelee.cn/</id>
   
   <author>
@@ -15,45 +15,6 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
-  
-  <entry>
-    <title>pdf</title>
-    <link href="https://blog.eaglelee.cn/2019/11/30/pdf-1/"/>
-    <id>https://blog.eaglelee.cn/2019/11/30/pdf-1/</id>
-    <published>2019-11-30T09:42:56.000Z</published>
-    <updated>2019-11-30T09:42:56.445Z</updated>
-    
-    <summary type="html">
-    
-    </summary>
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>pdf</title>
-    <link href="https://blog.eaglelee.cn/2019/11/30/pdf/"/>
-    <id>https://blog.eaglelee.cn/2019/11/30/pdf/</id>
-    <published>2019-11-30T09:42:21.366Z</published>
-    <updated>2019-11-30T09:42:49.123Z</updated>
-    
-    <content type="html"><![CDATA[<iframe src="./B-Tree.pdf#page=2" width="100%" height="600px">This browser does not support PDFs. Please download the PDF to view it: <a href="./B-Tree.pdf">Download PDF</a></iframe>]]></content>
-    
-    <summary type="html">
-    
-      
-      
-        &lt;iframe src=&quot;./B-Tree.pdf#page=2&quot; width=&quot;100%&quot; height=&quot;600px&quot;&gt;
-This browser does not support PDFs. Please download the PDF to view it: 
-&lt;a h
-      
-    
-    </summary>
-    
-    
-    
-  </entry>
   
   <entry>
     <title>First Night</title>
