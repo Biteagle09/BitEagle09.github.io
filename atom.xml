@@ -194,9 +194,9 @@
     <link href="http://blog.eaglelee.cn/2019/11/20/first/"/>
     <id>http://blog.eaglelee.cn/2019/11/20/first/</id>
     <published>2019-11-20T14:39:36.309Z</published>
-    <updated>2019-11-30T01:19:19.150Z</updated>
+    <updated>2019-11-30T01:22:10.422Z</updated>
     
-    <content type="html"><![CDATA[<p>&lt;摘要&gt;该博客系统是基于Hexo主题和GitHub服务搭建起来的静态博客页面，在本次搭建博客时遇到了一些问题，现作以陈述，希望能给大家一点帮助…………<a id="more"></a></p><ul><li><h4 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h4></li></ul><ol><li>一定要区分Hexo根目录下的总配置文件<code>_config.yml</code>和theme目录下的<code>_config.yml</code>;</li><li>评论功能建议使用Gitalk,这个评论模块是基于GitHub的issue的，用户若需要评论，需要登录自己的GitHub账号并于博主的<a href="https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/" target="_blank" rel="noopener">OAuth Apps</a>账号</li></ol><p><a href="https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/" target="_blank">OAuth Apps</a></p><h3 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h3><ol><li><a href="https://github.com/Biteagle09/BitEagle09.github.io/blob/master/documents/B-Tree.pdf" target="_blank">B-Tree [WiKipedia]<a/></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>&lt;摘要&gt;该博客系统是基于Hexo主题和GitHub服务搭建起来的静态博客页面，在本次搭建博客时遇到了一些问题，现作以陈述，希望能给大家一点帮助…………<a id="more"></a></p><ul><li><h4 id="主题配置"><a href="#主题配置" class="headerlink" title="主题配置"></a>主题配置</h4></li></ul><ol><li>一定要区分Hexo根目录下的总配置文件<code>_config.yml</code>和theme目录下的<code>_config.yml</code>;</li><li>评论功能建议使用Gitalk,这个评论模块是基于GitHub的issue的，用户若需要评论，需要登录自己的GitHub账号并于博主的<a href="https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/" target="_blank" rel="noopener">OAuth Apps</a>账号</li></ol><p><a href="https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/" target="_blank">OAuth Apps</a></p><h3 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h3><ol><li><a href="https://github.com/Biteagle09/BitEagle09.github.io/blob/master/documents/B-Tree.pdf" target="_blank" rel="noopener">B-Tree [WiKipedia]</a></li></ol>]]></content>
     
     <summary type="html">
     
