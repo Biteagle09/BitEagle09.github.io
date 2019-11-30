@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://blog.eaglelee.cn/"/>
+  <link href="blog.eaglelee.cn/"/>
   <updated>2019-11-30T02:22:40.038Z</updated>
-  <id>http://blog.eaglelee.cn/</id>
+  <id>blog.eaglelee.cn/</id>
   
   <author>
     <name>Chengxin Li</name>
@@ -18,12 +18,12 @@
   
   <entry>
     <title>First Night</title>
-    <link href="http://blog.eaglelee.cn/2019/11/30/first/"/>
-    <id>http://blog.eaglelee.cn/2019/11/30/first/</id>
+    <link href="blog.eaglelee.cn/2019/11/30/first/"/>
+    <id>blog.eaglelee.cn/2019/11/30/first/</id>
     <published>2019-11-30T02:13:43.174Z</published>
     <updated>2019-11-30T02:22:40.038Z</updated>
     
-    <content type="html"><![CDATA[<p>&lt;摘要&gt;该博客系统是基于Hexo主题和GitHub服务搭建起来的静态博客页面，在本次搭建博客时遇到了一些问题，现作以陈述，希望能给大家一点帮助…………<a id="more"></a></p><h2 id="1-主题配置"><a href="#1-主题配置" class="headerlink" title="1. 主题配置"></a>1. 主题配置</h2><ol><li>一定要区分Hexo根目录下的总配置文件<code>_config.yml</code>和theme目录下的<code>_config.yml</code>;</li><li>评论功能建议使用Gitalk,这个评论模块是基于GitHub的issue的，用户若需要评论，需要登录自己的GitHub账号并于博主的<a href="https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/" target="_blank" rel="noopener">OAuth Apps</a>账号</li></ol><p><a href="https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/" target="_blank">OAuth Apps</a></p><p><img src="/2019/11/30/first/OAuthApps.png" alt="OAuth Apps注册参数" title="Hello"></p><h2 id="2-参考文献"><a href="#2-参考文献" class="headerlink" title="2. 参考文献"></a>2. 参考文献</h2><ol><li><a href="https://github.com/Biteagle09/BitEagle09.github.io/blob/master/documents/B-Tree.pdf" target="_blank" rel="noopener">B-Tree [WiKipedia]</a></li></ol>]]></content>
+    <content type="html"><![CDATA[<p>&lt;摘要&gt;该博客系统是基于Hexo主题和GitHub服务搭建起来的静态博客页面，在本次搭建博客时遇到了一些问题，现作以陈述，希望能给大家一点帮助…………<a id="more"></a></p><h2 id="1-主题配置"><a href="#1-主题配置" class="headerlink" title="1. 主题配置"></a>1. 主题配置</h2><ol><li>一定要区分Hexo根目录下的总配置文件<code>_config.yml</code>和theme目录下的<code>_config.yml</code>;</li><li>评论功能建议使用Gitalk,这个评论模块是基于GitHub的issue的，用户若需要评论，需要登录自己的GitHub账号并于博主的<a href="https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/" target="_blank" rel="noopener">OAuth Apps</a>账号</li></ol><p><a href="https://developer.github.com/apps/building-oauth-apps/authorizing-oauth-apps/" target="_blank">OAuth Apps</a></p><p><img src="/30/first/OAuthApps.png" alt="OAuth Apps注册参数" title="Hello"></p><h2 id="2-参考文献"><a href="#2-参考文献" class="headerlink" title="2. 参考文献"></a>2. 参考文献</h2><ol><li><a href="https://github.com/Biteagle09/BitEagle09.github.io/blob/master/documents/B-Tree.pdf" target="_blank" rel="noopener">B-Tree [WiKipedia]</a></li></ol>]]></content>
     
     <summary type="html">
     
@@ -33,14 +33,14 @@
     
     
     
-      <category term="test" scheme="http://blog.eaglelee.cn/tags/test/"/>
+      <category term="test" scheme="blog.eaglelee.cn/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>The README of BlueLake</title>
-    <link href="http://blog.eaglelee.cn/2019/11/29/README-Hexo/"/>
-    <id>http://blog.eaglelee.cn/2019/11/29/README-Hexo/</id>
+    <link href="blog.eaglelee.cn/2019/11/29/README-Hexo/"/>
+    <id>blog.eaglelee.cn/2019/11/29/README-Hexo/</id>
     <published>2019-11-29T11:34:00.709Z</published>
     <updated>2019-11-29T13:49:40.718Z</updated>
     
@@ -57,14 +57,14 @@
     
     
     
-      <category term="README" scheme="http://blog.eaglelee.cn/tags/README/"/>
+      <category term="README" scheme="blog.eaglelee.cn/tags/README/"/>
     
   </entry>
   
   <entry>
     <title>会声会影2019 简易版+汉化包+序列号</title>
-    <link href="http://blog.eaglelee.cn/2019/11/25/%E4%BC%9A%E5%A3%B0%E4%BC%9A%E5%BD%B12019%20%E7%AE%80%E6%98%93%E7%89%88+%E6%B1%89%E5%8C%96%E5%8C%85+%E5%BA%8F%E5%88%97%E5%8F%B7/"/>
-    <id>http://blog.eaglelee.cn/2019/11/25/%E4%BC%9A%E5%A3%B0%E4%BC%9A%E5%BD%B12019%20%E7%AE%80%E6%98%93%E7%89%88+%E6%B1%89%E5%8C%96%E5%8C%85+%E5%BA%8F%E5%88%97%E5%8F%B7/</id>
+    <link href="blog.eaglelee.cn/2019/11/25/%E4%BC%9A%E5%A3%B0%E4%BC%9A%E5%BD%B12019%20%E7%AE%80%E6%98%93%E7%89%88+%E6%B1%89%E5%8C%96%E5%8C%85+%E5%BA%8F%E5%88%97%E5%8F%B7/"/>
+    <id>blog.eaglelee.cn/2019/11/25/%E4%BC%9A%E5%A3%B0%E4%BC%9A%E5%BD%B12019%20%E7%AE%80%E6%98%93%E7%89%88+%E6%B1%89%E5%8C%96%E5%8C%85+%E5%BA%8F%E5%88%97%E5%8F%B7/</id>
     <published>2019-11-25T04:30:17.456Z</published>
     <updated>2019-11-29T13:50:55.139Z</updated>
     
@@ -81,14 +81,14 @@
     
     
     
-      <category term="Corel videoStudioPro2019" scheme="http://blog.eaglelee.cn/tags/Corel-videoStudioPro2019/"/>
+      <category term="Corel videoStudioPro2019" scheme="blog.eaglelee.cn/tags/Corel-videoStudioPro2019/"/>
     
   </entry>
   
   <entry>
     <title>MarkDown基础语法</title>
-    <link href="http://blog.eaglelee.cn/2019/11/24/MarkDown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
-    <id>http://blog.eaglelee.cn/2019/11/24/MarkDown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
+    <link href="blog.eaglelee.cn/2019/11/24/MarkDown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/"/>
+    <id>blog.eaglelee.cn/2019/11/24/MarkDown%E5%9F%BA%E7%A1%80%E8%AF%AD%E6%B3%95/</id>
     <published>2019-11-24T14:05:45.650Z</published>
     <updated>2019-11-30T02:03:10.789Z</updated>
     
@@ -106,8 +106,8 @@
   
   <entry>
     <title>Calculator</title>
-    <link href="http://blog.eaglelee.cn/2019/11/22/calc/"/>
-    <id>http://blog.eaglelee.cn/2019/11/22/calc/</id>
+    <link href="blog.eaglelee.cn/2019/11/22/calc/"/>
+    <id>blog.eaglelee.cn/2019/11/22/calc/</id>
     <published>2019-11-22T04:54:17.985Z</published>
     <updated>2019-11-29T13:51:41.750Z</updated>
     
@@ -137,14 +137,14 @@
     
     
     
-      <category term="test" scheme="http://blog.eaglelee.cn/tags/test/"/>
+      <category term="test" scheme="blog.eaglelee.cn/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>VsCode for Vue</title>
-    <link href="http://blog.eaglelee.cn/2019/11/21/VsCode%20for%20Vue/"/>
-    <id>http://blog.eaglelee.cn/2019/11/21/VsCode%20for%20Vue/</id>
+    <link href="blog.eaglelee.cn/2019/11/21/VsCode%20for%20Vue/"/>
+    <id>blog.eaglelee.cn/2019/11/21/VsCode%20for%20Vue/</id>
     <published>2019-11-21T08:47:10.457Z</published>
     <updated>2019-11-29T13:49:06.096Z</updated>
     
@@ -161,14 +161,14 @@
     
     
     
-      <category term="vue" scheme="http://blog.eaglelee.cn/tags/vue/"/>
+      <category term="vue" scheme="blog.eaglelee.cn/tags/vue/"/>
     
   </entry>
   
   <entry>
     <title>搭建自己的第一个博客简易教程</title>
-    <link href="http://blog.eaglelee.cn/2019/11/21/personal%20blog/"/>
-    <id>http://blog.eaglelee.cn/2019/11/21/personal%20blog/</id>
+    <link href="blog.eaglelee.cn/2019/11/21/personal%20blog/"/>
+    <id>blog.eaglelee.cn/2019/11/21/personal%20blog/</id>
     <published>2019-11-20T17:08:10.801Z</published>
     <updated>2019-11-30T01:48:16.575Z</updated>
     
@@ -185,14 +185,14 @@
     
     
     
-      <category term="test" scheme="http://blog.eaglelee.cn/tags/test/"/>
+      <category term="test" scheme="blog.eaglelee.cn/tags/test/"/>
     
   </entry>
   
   <entry>
     <title>输入一个整数，输出若干个和为这个整数的连续序列</title>
-    <link href="http://blog.eaglelee.cn/2019/11/20/polyformula/"/>
-    <id>http://blog.eaglelee.cn/2019/11/20/polyformula/</id>
+    <link href="blog.eaglelee.cn/2019/11/20/polyformula/"/>
+    <id>blog.eaglelee.cn/2019/11/20/polyformula/</id>
     <published>2019-11-20T15:08:36.055Z</published>
     <updated>2019-11-29T13:52:19.539Z</updated>
     
@@ -206,14 +206,14 @@
     
     
     
-      <category term="Algorithm" scheme="http://blog.eaglelee.cn/tags/Algorithm/"/>
+      <category term="Algorithm" scheme="blog.eaglelee.cn/tags/Algorithm/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://blog.eaglelee.cn/2019/11/20/hello-world/"/>
-    <id>http://blog.eaglelee.cn/2019/11/20/hello-world/</id>
+    <link href="blog.eaglelee.cn/2019/11/20/hello-world/"/>
+    <id>blog.eaglelee.cn/2019/11/20/hello-world/</id>
     <published>2019-11-20T13:53:24.859Z</published>
     <updated>2019-11-29T13:46:21.568Z</updated>
     
@@ -230,7 +230,7 @@
     
     
     
-      <category term="HelloWorld" scheme="http://blog.eaglelee.cn/tags/HelloWorld/"/>
+      <category term="HelloWorld" scheme="blog.eaglelee.cn/tags/HelloWorld/"/>
     
   </entry>
   
