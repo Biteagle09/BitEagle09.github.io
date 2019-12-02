@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 		<title>404 not found</title>
 		<style>
-			body{background:#F2F2F2;font-family:"Microsoft YaHei","Segoe UI","Lucida Grande",Helvetica,Arial,sans-serif}
+			body{background:#F2F2F2;text-align: center;font-family:"Microsoft YaHei","Segoe UI","Lucida Grande",Helvetica,Arial,sans-serif}
 			.no404{background:url(../images/no_demo.png) center no-repeat;min-height:500px;text-align:center;position:relative}
 			.no404 h1{bottom:55px;position:absolute;text-align:center;width:100%;font-size:2em;color:#889BA9}
 			.no404 p{bottom:29px;position:absolute;text-align:center;width:100%;font-size:1.1em;color:#889BA9}
@@ -16,21 +16,67 @@
 	<link rel="alternate" href="/atom.xml" title="EagleLee" type="application/atom+xml">
 </head>
 	<body>
+		<!--404图片页面
 		<div class="no404">
-		  <img style="margin-top: 100px;" src="https://blog.eaglelee.cn/404/404.png" alt="no_demo">
-		  <h1 style="margin-bottom: 30px; font-family: Consolas;">Wow, why doesn't it exist?</h1>
-		  
-		  <br><br><br>
-		  <!-- Indicates a successful or positive action -->
-		  <button style="margin-top: 80px; font-size: 1.5em; font-family: Consolas; " type="button" class="btn btn-success btn-lg" onclick="clickOne()">
-			<span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;Back home?
-		  </button>
-		  
-        </div>
-		<script>
-			function clickOne(){
-				window.location.href="https://blog.eaglelee.cn";
-			}
-		</script>
+			<img style="margin-top: 80px;" src="https://blog.eaglelee.cn/404/404.png" alt="no_demo">
+			<h1 style="margin-bottom: 30px; font-family: Consolas;">Wow, why doesn't it exist?</h1>
+			<br><br><br>
+			<button style="margin-top: 80px; font-size: 1.5em; font-family: Consolas; " type="button"
+				class="btn btn-success btn-lg" onclick="clickOne()">
+				<span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;Back home?
+			</button>
+			<script>
+				function clickOne() {
+					window.location.href = "https://blog.eaglelee.cn";
+				}
+			</script>
+		</div>
+		-->
+
+
+
+		<!--这是个分界线，上面是404图片页面，下面是圈小猫游戏-->
+
+
+
+		<!--圈小猫游戏-->
+		<div class="no404">
+			<div class="content">
+				<header class="article-header">
+					<h2 style="margin: 30px auto; font-family: '微软雅黑';">[404]&nbsp;您所访问的页面不存在了，要不先玩个游戏吧！</h2>
+				</header>
+				<article class="article-content">
+					<script src="https://down.52pojie.cn/.fancyindex/js/phaser.min.js"></script>
+					<script src="https://down.52pojie.cn/.fancyindex/js/catch-the-cat.js"></script>
+					<div id="catch-the-cat"></div>
+					<script>
+						window.game = new CatchTheCatGame({
+							w: 11,   //11
+							h: 11,   //11
+							r: 20,   //20
+							backgroundColor: 0xeeeeee,
+							parent: 'catch-the-cat',
+							statusBarAlign: 'center',
+							credit: 'blog.eaglelee.cn'
+						});
+					</script>
+				</article>
+				<p>&nbsp;</p>
+			</div>
+			<button style="margin-top: 40px; font-size: 1.5em; font-family: Consolas; " type="button"
+				class="btn btn-success btn-lg" onclick="clickOne()">
+				<span class="glyphicon glyphicon-home" aria-hidden="true"></span>&nbsp;Back home?
+			</button>
+			<script>
+				function clickOne() {
+					window.location.href = "https://blog.eaglelee.cn";
+				}
+			</script>
+		</div>
+		
+
+
+
+
 </body>
 </html>
